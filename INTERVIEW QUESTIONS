@@ -1,0 +1,92 @@
+Q1. Name four of the main data types in python, why are these the core data type ? 
+->  The main data types used in python are numbers, strings , list, tuples, sets and dictionaries.  as they are part of the python language and are always available to create other objects. 
+these are the built in functions, thats why you dont have to call them by using import, they are always available. 
+Numeric - int,float,complex
+Sequence - string, list, tuple
+Mapping - dictionary
+
+Q2. What is the meaning of immutable data types in python, which are those ? 
+-> An immutable datatype is a type of an object which cannot be modified after its creation. Numbers, Strings, Tuples are the data types which falls in this category. you cant modify them but can create a new one, by running an expression. 
+
+Q3. What is Dynamic Programming in python ? 
+->  Dynamic Programming is breaking down a problem into smaller sub-problems, solving these sub-problem and storing the solutions. 
+    sub-problems are smaller versions of the original problem. 
+For Example :  1 + 2 + 3 + 4 
+sub-problems of the example is 1 + 2 , 3 + 4. here once these two smaller problems, we can add the solutions to these sub-problems to find the solution to the overall problem. 
+
+Q4. What is the difference between a list and a tuple ? 
+->  List is a mutable object whereas, a tuple is immutable. this means that list can be changed and tuple cannot. 
+
+Q5. What are python Keywords and identifiers ?
+-> Keywords are the reserved words in python. we cannot use keywords as a variable name, function name or any other identifier. they are used to define the structure of the python. for example: True , False, class, else, if, break, pass. 
+Python identifiers is a name given to entities like class, fuctions, variables, etc.
+
+Q6. What are operators in python language ?
+-> Operators are used to perform operations on values and variables. These are the special symbols that carry out arithematic and logical operations. Following are the types of operators.
+1. Arithematic Operators (+,-,*,/,//,%,**) : used to perform mathematical operations like addition, multiplication, and division.
+2. Comparison Operators (>,<,==,= ,<=) : Compares the value. it either returns True or False by the condition. 
+3. Logical Operators (and,or,not) : they are used in logical function combining it with conditional statements. 
+4. Bitwise Operators : performs the bit-by-bit operations used to operate on binary numbers. 
+5. Assignment Operators (=, +=, -=, *=, /=, a%=, a**=) : are used to assingning values to variables. 
+
+Q7. What conditional statements are available in python ? 
+-> Conditional statements are the programming statements which alter the course of execution based on a condition.
+we use: IF , IF-ELSE, FOR, WHILE. 
+
+Q8. What are local and global variables in python ? 
+-> A variable which is declared outside a function is called global variables. these variables are accessed by any function in the program. 
+A variable declared inside a function is known as local variables. 
+
+Q9. What is the difference between python arrays and lists ? 
+-> Arrays are lists both have same way  of storing data. but arrays can hold only single data type elements whereas, lists can hold any data type elements. 
+
+Q10. What is a function in python ? 
+-> A block of code which is executed only when it is called. we use DEF keyword to define a python function. 
+
+Q11. What is __init__ ? 
+-> it is a method or a constructor in python. it is called to allocate memory when a new object of class is created. 
+
+Q12. What is self in python ? 
+-> Self is an object of a class. it is included as a first parameter. __init__(self) here self refers to newly created object. 
+
+Q13. How does Break, Continue, Pass work ? 
+-> Break : allows loop termination when some condition is met. the control is trasfered to next statement. 
+   Continue : Allows SKIPPING  some part of a loop, control is transferred to the begining of the loop 
+   Pass : Used as a null operation. 
+
+Q14. Explain Inheritance in Python with an example ?
+-> Inheritance allows One class to gain all the members(say attributes and methods) of another class. Inheritance provides code reusability, makes it easier to create and maintain an application. The class from which we are inheriting is called super-class and the class that is inherited is called a derived / child class.
+
+They are different types of inheritance supported by Python:
+
+Single Inheritance – where a derived class acquires the members of a single super class.
+Multi-level inheritance – a derived class d1 in inherited from base class base1, and d2 are inherited from base2.
+Hierarchical inheritance – from one base class you can inherit any number of child classes
+Multiple inheritance – a derived class is inherited from more than one base class.
+
+Q15. What is encapsulation ? 
+-> Encapsulation means binding the code and the data together. A python class in an example of encapsulation. 
+
+Q16. What does *args and **kwargs mean ?
+-> *args is special syntax used in function definition to pass variable-length arguments. here "*" means variable length and "args" is the name used by convention. You can use anyother.
+**kwargs is a special syntax used in the function definiton to pass variable length keyword arguments. 
+
+Q17. What is exceptional handling ? 
+-> When an error occurs, or exception occurs. python normally stops and generates an error message. these exceptions can be handled using the try statement.
+
+Q18. What is try and except ? 
+-> the TRY block lets you test a block of code for errors. 
+the EXCEPT block lets you handle the error. and FINALLY block lets you execute code, regardless of the result of the try-except blocks. 
+
+Q19. What is a dynamically typed lanugage ? 
+-> static - data types are checked before the execution. 
+dynamic - data types are checked during execution.
+Python is an interpreted language, executes each statement line by line and thus type-checking is done on the fly, during execution. Hence, Python is a Dynamically Typed Language.
+
+Q20. What is python ? what are the benifits of using python ? 
+-> python is a purpose programming language. it can be used to build almost any type of application with right tools/libraries. It supports objects, modules, threads, execption-handling and automatic memory management. All this helps in modelling real world problems and bulding applications to solve these problems. 
+BENIFITS OF LEARNING PYTHON ARE:
+a. general programming language that is simple, easy-to-learn syntax which emphasizes readability. it is completely open source and supports third party packages.
+b. high level data structures, has huge community of developers for rapid application development and deployment.
+
+
